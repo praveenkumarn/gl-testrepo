@@ -7,6 +7,18 @@
   <version>1.0-SNAPSHOT</version>
   <name>NumberGenerator</name>
   <url>http://maven.apache.org</url>
+	<distributionManagement>  
+	<repository>     
+	<id>deployment</id>     
+	<name>Internal Releases</name>     
+	<url>http://174.129.70.15:8081/nexus/content/repositories/releases/</url>  
+	</repository>  
+	<snapshotRepository>     
+	<id>deployment</id>     
+	<name>Internal Releases</name>     
+	<url>http://174.129.70.15:8081/nexus/content/repositories/snapshots/</url>  
+	</snapshotRepository>
+	</distributionManagement>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
