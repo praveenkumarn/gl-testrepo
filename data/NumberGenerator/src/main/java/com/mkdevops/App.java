@@ -1,7 +1,7 @@
 package com.mkdevops;
 
 /**
- * Hello world from eclipse prog!
+ * Hello world from eclipse!
  *
  */
 public class App 
