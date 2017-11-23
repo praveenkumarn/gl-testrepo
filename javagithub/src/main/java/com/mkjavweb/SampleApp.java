@@ -1,5 +1,5 @@
 package com.mkjavweb;
-/****test
+/*****test
 */
 public class SampleApp {
 
