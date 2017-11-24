@@ -6,7 +6,7 @@ import java.util.jar.Attributes;
 import java.util.jar.Manifest;
 import javax.servlet.ServletContext;
 
-/****
+/***
  * This is a sample class that you can use to get package information on
  * runtime.
  */
