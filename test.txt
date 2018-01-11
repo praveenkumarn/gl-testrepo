@@ -2,5 +2,5 @@
 
 This is 
 Developed for 
-Feature A  - Dev
+Feature A  and Dev
 
