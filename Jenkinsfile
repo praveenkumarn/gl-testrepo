@@ -34,7 +34,7 @@ sh """
 			} 
  		}
      stage ('CI - Nexus') {
- 	 nexusArtifactUploader artifacts: [[artifactId: 'javagithub', classifier: '', file: '/var/lib/jenkins/workspace/Build_Push_Nexus/javagithub/target/javagithub-0.0.1.war', type: 'war']], credentialsId: 'nexusadmin', groupId: 'com.mkjavweb', nexusUrl: '172.31.82.72:8081/nexus', nexusVersion: 'nexus2', protocol: 'http', repository: 'devops_update_site', version: '0.0.1' 	}
+ 	 nexusArtifactUploader artifacts: [[artifactId: 'javagithub', classifier: '', file: '/var/lib/jenkins/workspace/GitHub_CI_master/javagithub/target/javagithub-0.0.1.war', type: 'war']], credentialsId: 'nexusadmin', groupId: 'com.mkjavweb', nexusUrl: '172.31.82.72:8081/nexus', nexusVersion: 'nexus2', protocol: 'http', repository: 'devops_update_site', version: '0.0.1' 	}
 }
 }
 }
